@@ -26,7 +26,7 @@ public class Init {
             .register("rsobc", () -> new ClockBlock());
     //Items
     public static final RegistryObject<BlockItem> Item_RSOBC = ITEMS
-            .register("rsobc", () -> new BlockItem(Block_RSOBC.get(), new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+            .register("rsobc", () -> new BlockItem(Block_RSOBC.get(), new Item.Properties().tab(ItemGroup.TAB_REDSTONE)));
     //TETypes
     public static final RegistryObject<TileEntityType<ClockBlockTileEntity>> TET_RSOBC = TET
             .register("rsobc", () -> TileEntityType.Builder.of(ClockBlockTileEntity::new, Block_RSOBC.get()).build(null));
