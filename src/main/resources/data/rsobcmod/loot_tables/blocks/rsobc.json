@@ -1,0 +1,27 @@
+{ "type": "minecraft:block",
+
+  "name": "rsobcmod:rsobc",
+
+  "pools": [
+
+    {
+
+      "rolls": 1,
+
+      "entries": [
+
+        {
+
+          "type": "minecraft:item",
+
+          "name": "rsobcmod:rsobc"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
