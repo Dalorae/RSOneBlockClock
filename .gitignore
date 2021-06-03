@@ -16,6 +16,7 @@ out
 # gradle
 gradlew
 build
+.sh
 .gradle
 
 # other
