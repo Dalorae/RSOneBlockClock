@@ -110,8 +110,4 @@ public class ClockBlock extends ContainerBlock {
         bState.add(POWERED);
     }
 
-    public Item getDrops(){
-        return Init.Item_RSOBC.get();
-    }
-
 }
